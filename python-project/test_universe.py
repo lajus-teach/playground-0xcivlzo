@@ -31,28 +31,22 @@ def test_count_all_stars():
     try:
         count1 = count_all_stars([2, 3])
         assert count1 == 5, "Running count_all_stars([2, 3])... Expected 5, got {}".format(count1)
-        count2 = count_all_stars([9, -3])
-        assert count2 == 6, "Running count_all_stars([9, -3])... Expected 6, got {}".format(count2)
+        count2 = count_all_stars([9, 4, 8, 7])
+        assert count2 == 28, "Running count_all_stars([9, 4, 8, 7])... Expected 28, got {}".format(count2)
         success()
 
         if sum_builtin_used:
-            send_msg("My personal Yoda, you are. 🙏", "* ● ¸ .　¸. :° ☾ ° 　¸. ● ¸ .　　¸.　:. • ")
-            send_msg("My personal Yoda, you are. 🙏", "           　★ °  ☆ ¸. ¸ 　★　 :.　 .   ")
-            send_msg("My personal Yoda, you are. 🙏", "__.-._     ° . .　　　　.　☾ ° 　. *   ¸ .")
-            send_msg("My personal Yoda, you are. 🙏", "'-._\\7'      .　　° ☾  ° 　¸.☆  ● .　　　")
-            send_msg("My personal Yoda, you are. 🙏", " /'.-c    　   * ●  ¸.　　°     ° 　¸.    ")
-            send_msg("My personal Yoda, you are. 🙏", " |  /T      　　°     ° 　¸.     ¸ .　　  ")
-            send_msg("My personal Yoda, you are. 🙏", "_)_/LI")
+            send_msg("Bien joué", "")
         else:
-            send_msg("Kudos 🌟", "Did you know that you could use the sum function? Try it!")
-            send_msg("Kudos 🌟", "")
-            send_msg("Kudos 🌟", "galaxies = [37, 3, 2]")
-            send_msg("Kudos 🌟", "total_stars = sum(galaxies)  # 42")
+            send_msg("C'est tout bon, mais...", "Tu peux aussi utiliser directement la fonction sum.")
+            send_msg("C'est tout bon, mais...", "Essaye donc:")
+            send_msg("C'est tout bon, mais...", "")
+            send_msg("C'est tout bon, mais...", "galaxies = [37, 3, 2]")
+            send_msg("C'est tout bon, mais...", "total_stars = sum(galaxies)  # 42")
     except AssertionError as e:
         fail()
         send_msg("Oops! 🐞", e)
-        send_msg("Hint 💡", "Did you properly accumulate all stars into 'total_stars'? 🤔")
-
+        send_msg("Hint 💡", "Ajoute le nombre d'étoile de chaque galaxie à la variable total_stars.")
 
 if __name__ == "__main__":
     test_count_all_stars()
