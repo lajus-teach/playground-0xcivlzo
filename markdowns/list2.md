@@ -27,7 +27,7 @@ print(a, b)
 Dans le premier code, les valeurs `a + b` et `a * b` sont calculées indépendemment en considérant les valeurs précédentes de `a` (3) et de `b` (5). 
 Dans le deuxième code on calcule d'abord la nouvelle valeur de `a` (3 + 5 = 8), puis la nouvelle valeur de `b` (8 * 5 = 40).
 
-Tentez de répondre d'abord au QCM avant d'exécuter ce bloc de code
+Tentez d'abord de répondre au QCM avant d'exécuter ce bloc de code:
 ```python runnable
 a = 12
 b = 14
