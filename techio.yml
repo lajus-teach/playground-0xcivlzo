@@ -1,7 +1,9 @@
-title: Python Project
+title: Les listes et tuples en Python
 plan:
 - title: Welcome
   statement: markdowns/welcome.md
+- title: Présentation
+  statement: markdowns/list1.md
 projects:
   python:
     root: /python-project
