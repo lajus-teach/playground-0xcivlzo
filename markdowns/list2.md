@@ -42,11 +42,28 @@ print(a, b)
 -[ ] 14, 14
 -[ ] 12, 12
 
+---
+
+On peut utiliser ces assignations multiples pour rapidement décomposer un tuple:
+
+```python runnable
+t = 3, 5
+a, b = t
+print(a*b)
+```
+
+Ou même une liste de tuple:
+```python runnable
+l = [(3,5), (2,6), (8, 4)]
+for a, b in l:
+    print(a*b)
+```
+
 # Mutable et Immutable
 
 La différence majeure entre un *tuple* et une *liste* est que:
  * Un tuple **ne peut pas être modifié** (**immutable**)
- * Une liste **peut être modfifiée** (**mutable**)
+ * Une liste **peut être modifiée** (**mutable**)
 
 On peut modifier les **valeurs des éléments**:
 ```python runnable
@@ -109,3 +126,9 @@ Dans cet exemple, l'opération `x[:]` (sous-liste) renvoie une copie de la liste
 une liste `[1, 2, 3, 5]` et `y` contient une référence vers une autre liste, qui est une copie de cette liste. `x` et `y` ne référençant pas la
 même liste, la modification d'une liste n'entraîne pas la modification de l'autre liste.
 
+# Exercice
+
+Yoda dispose d'une liste des couples maître/padawan du temple. Il souhaite que vous complétez la fonction `inverse_couple` 
+renvoyant la liste des couples padawan/maître du temple.
+
+Much to learn, you still have
