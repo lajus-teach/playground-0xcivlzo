@@ -172,7 +172,7 @@ et vous demande de compléter la fonction count_all_stars calculant le nombre to
 
 Yoda, recherche des indices pour identifier le seigneur Sith s'étant infiltré au coeur de la république. Pour cela, il recherche des messages transmis
 en double (par le seigneur Sith et son apprenti) dans les communications intergalactiques.
-Compléter la fonction find_duplicates identifiant les valeurs en doubles dans la liste des messages passée en argument.
+Compléter la fonction find_duplicate identifiant les valeurs en doubles dans la liste des messages passée en argument.
 
 @[Always two there are, no more, no less: a master and an apprentice.]({"stubs": ["duplicate.py"], "command": "python3 test_duplicate.py"})
 
