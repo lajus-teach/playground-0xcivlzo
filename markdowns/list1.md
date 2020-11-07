@@ -74,7 +74,7 @@ print([1, 2] + (3.0, 4.0))
 ```python runnable
 l = [1, 1.5, False, "Hello"]
 print(1.5 in l)
-print(True in l)
+print(12 in l)
 print(1.0 in l)
 print("H" in l)
 ```
@@ -101,4 +101,36 @@ print(l[:-1])
 
 ## QCM
 
+?[Quelle est la taille de la liste `[1, 2, 3, 4]` ?]
+-[ ] 1
+-[ ] 2
+-[ ] 3
+-[X] 4
 
+?[Quelle est la taille de la liste `[(1, 2), [3, 4]]` ?]
+-[ ] 1
+-[X] 2
+-[ ] 3
+-[ ] 4
+
+?[Quelle est la taille de la liste `[(1, 2, 3, 4)]` ?]
+-[X] 1
+-[ ] 2
+-[ ] 3
+-[ ] 4
+
+?[Que renvoie `[ 1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ][2]` ?]
+-[ ] `1`
+-[ ] `2`
+-[ ] `(1, 2, 3)`
+-[X] `[1, False]`
+-[ ] Une erreur
+
+?[Que renvoie `[ 1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ][3][1]` ?]
+-[ ] `1`
+-[ ] `3`
+-[ ] `[1, False]`
+-[ ] `"Tuple"`
+-[X] `["Liste"]`
+-[ ] `"Liste"`
+-[ ] Une erreur
