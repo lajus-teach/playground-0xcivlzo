@@ -28,7 +28,7 @@ liste_vide = []
 print("La liste vide:", liste_vide)
 ```
 
-## Des conteneurs universels
+# Des conteneurs universels
 
 Les listes et les tuples peuvent contenir **n'importe quels types d'objets**:
 
@@ -53,7 +53,7 @@ l = [ 1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
 print(l)
 ```
 
-## Opérations sur les tuples et listes
+# Opérations sur les tuples et listes
 
 Pour manipuler les *tuples* et les *listes*, on peut utiliser les mêmes opérations que sur les chaînes de caractères[^­1]:
  * **Taille** à l'aide de la fonction `len()`:
@@ -96,41 +96,73 @@ print(l[-1])
 l = [1, 1.5, False, "Hello"]
 print(l[1:3])
 print(l[2:])
-print(l[:-1])
+print(l[:3])
 ```
 
-## QCM
+# QCM
 
-?[Quelle est la taille de la liste `[1, 2, 3, 4]` ?]
+?[Quelle est la taille de la liste [1, 2, 3, 4] ?]
 -[ ] 1
 -[ ] 2
 -[ ] 3
 -[X] 4
 
-?[Quelle est la taille de la liste `[(1, 2), [3, 4]]` ?]
+?[Quelle est la taille de la liste [(1, 2), [3, 4]] ?]
 -[ ] 1
 -[X] 2
 -[ ] 3
 -[ ] 4
 
-?[Quelle est la taille de la liste `[(1, 2, 3, 4)]` ?]
+?[Quelle est la taille de la liste [(1, 2, 3, 4)] ?]
 -[X] 1
 -[ ] 2
 -[ ] 3
 -[ ] 4
 
-?[Que renvoie `[ 1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ][2]` ?]
--[ ] `1`
--[ ] `2`
--[ ] `(1, 2, 3)`
--[X] `[1, False]`
+---
+
+```python
+for e in [(1, 2), [3, 4]]:
+    print(e)
+```
+?[Qu'affiche ce programme (les '/' indiquant des retours à la ligne) ?]
+-[ ] e / e / e / e
+-[ ] 1 / 2 / 3 / 4
+-[ ] (1, 2), [3, 4]
+-[X] (1, 2) / [3, 4]
+-[ ] False
+
+---
+
+On effectue l'instruction:
+```python
+l = [1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
+```
+
+?[Que vaut l[2] ?]
+-[ ] 1
+-[ ] 2
+-[ ] (1, 2, 3)
+-[X] [1, False]
 -[ ] Une erreur
 
-?[Que renvoie `[ 1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ][3][1]` ?]
--[ ] `1`
--[ ] `3`
--[ ] `[1, False]`
--[ ] `"Tuple"`
--[X] `["Liste"]`
--[ ] `"Liste"`
+?[Que vaut l[3][1] ?]
+-[ ] 1
+-[ ] 3
+-[ ] [1, False]
+-[ ] "Tuple"
+-[X] ["Liste"]
+-[ ] "Liste"
 -[ ] Une erreur
+
+?[Que vaut l[3][1:] ?]
+-[ ] ("Tuple, ["Liste"])
+-[X] (["Liste])
+-[ ] ["Liste"]
+-[ ] "Liste"
+-[ ] "iste"
+-[ ] Une erreur
+
+# Exercices
+
+
