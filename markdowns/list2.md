@@ -128,7 +128,7 @@ même liste, la modification d'une liste n'entraîne pas la modification de l'au
 
 # Exercice
 
-Yoda dispose d'une liste des couples maître/padawan du temple. Il souhaite que vous complétez la fonction `inverse_couple` 
+Yoda dispose d'une liste des couples maître/padawan du temple. Il souhaite que vous complétez la fonction `inverse_couples` 
 renvoyant la liste des couples padawan/maître du temple.
 
 @[Much to learn, you still have]({"stubs": ["inverse.py"], "command": "python3 test_inverse.py"})
