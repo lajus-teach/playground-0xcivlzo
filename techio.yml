@@ -4,6 +4,8 @@ plan:
   statement: markdowns/welcome.md
 - title: Présentation
   statement: markdowns/list1.md
+- title: Différences entre tuples et listes
+  statement: markdowns/list2.md
 projects:
   python:
     root: /python-project
