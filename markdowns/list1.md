@@ -165,4 +165,7 @@ l = [1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
 
 # Exercices
 
+Yoda veut compter le nombre d'étoiles dans la galaxie. Il dispose d'une liste contenant le nombre d'étoiles dans chaque galaxie
+et vous demande de compléter la fonction count_all_stars calculant le nombre total d'étoiles à partir de cette liste passée en argument.
 
+@[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
