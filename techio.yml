@@ -1,6 +1,6 @@
 title: Les listes et tuples en Python
 plan:
-- title: Welcome
+- title: Bonjour à tous
   statement: markdowns/welcome.md
 - title: Présentation
   statement: markdowns/list1.md
