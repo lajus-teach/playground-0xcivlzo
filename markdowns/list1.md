@@ -12,17 +12,17 @@ tuple_exemple2 = (1, 2, 3)
 print(type(tuple_exemple))
 print(type(tuple_exemple2))
 if tuple_exemple == tuple_exemple2:
-    print("Ce sont bien les mêmes tuples")
+    print("Ce sont bien les mêmes tuples:", tuple_exemple)
 # Un tuple peut être vide.
 tuple_vide = ()
 print("Le tuple vide:", tuple_vide)
 ```
-
 Une *liste* est un ensemble d'objets séparés par des `,` entre crochets: `[` et `]`:
 
 ```python runnable
 liste_exemple = [1, 2, 3]
 print(type(liste_exemple))
+print("La liste:", liste_exemple)
 # Une liste peut être vide
 liste_vide = []
 print("La liste vide:", liste_vide)
@@ -39,21 +39,18 @@ t3 = True, False, False
 t4 = "Hello", "World"
 print(t1, t2, t3, t4, sep="\n")
 ```
-
 Ils peuvent contenir des **objets de types différents**:
 
 ```python runnable
 t = 1, 1.5, False, "Hello"
 print(t)
 ```
-
 Ils peuvent même contenir **d'autres tuples ou listes**:
 
 ```python runnable
 # Une liste contenant 4 éléments:
 l = [ 1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
-for el in l:
-    print(el)
+print(l)
 ```
 
 ## Opérations sur les tuples et listes
@@ -69,6 +66,8 @@ print(len([ 1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]))
 ```python runnable
 print([1, 2] + [3, 4])
 print([1, 2] + [True, False])
+print((1, 2) + (3.0, 4.0))
+# Par contre l'instruction suivante échoue:
 print([1, 2] + (3.0, 4.0))
 ```
  * **Appartenance**: le mot-clé `in`, à l'extérieur d'une boucle `for`, permet de tester l'appartenance:
@@ -99,4 +98,7 @@ print(l[1:3])
 print(l[2:])
 print(l[:-1])
 ```
+
+## QCM
+
 
