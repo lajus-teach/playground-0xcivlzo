@@ -166,13 +166,13 @@ l = [1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
 # Exercices
 
 Yoda veut compter le nombre d'étoiles dans la galaxie. Il dispose d'une liste contenant le nombre d'étoiles dans chaque galaxie
-et vous demande de compléter la fonction count_all_stars calculant le nombre total d'étoiles à partir de cette liste passée en argument.
+et vous demande de compléter la fonction `count_all_stars` calculant le nombre total d'étoiles à partir de cette liste passée en argument.
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
 
 Yoda, recherche des indices pour identifier le seigneur Sith s'étant infiltré au coeur de la république. Pour cela, il recherche des messages transmis
 en double (par le seigneur Sith et son apprenti) dans les communications intergalactiques.
-Compléter la fonction find_duplicate identifiant les valeurs en doubles dans la liste des messages passée en argument.
+Compléter la fonction `find_duplicate` identifiant les valeurs en doubles dans la liste des messages passée en argument.
 
 @[Always two there are, no more, no less: a master and an apprentice.]({"stubs": ["duplicate.py"], "command": "python3 test_duplicate.py"})
 
