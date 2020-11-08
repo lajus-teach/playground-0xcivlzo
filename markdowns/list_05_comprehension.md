@@ -18,12 +18,47 @@ print(l)
 l = [ i*i for i in range(5) ]
 print(l)
 ```
-
 On peut lire cette dernière instruction de la manière suivante: `l` est la liste des valeurs `i*i` pour `i` allant de 0 à 5.
+
+**QCM**
+
+```python
+l1 = [ i for i in range(5)]
+l2 = [ i+2 for i in range(5)]
+l3 = [ c for c in "Hello"]
+l4 = [ c.upper() for c in "Hello"]
+```
+
+?[Que vaut l1 ?]
+-[X] [0, 1, 2, 3, 4]
+-[ ] [1, 2, 3, 4, 5]
+-[ ] [2, 3, 4, 5, 6]
+-[ ] [1, 2, 3, 4]
+
+?[Que vaut l2 ?]
+-[ ] [0, 1, 2, 3, 4]
+-[ ] [1, 2, 3, 4, 5]
+-[X] [2, 3, 4, 5, 6]
+-[ ] [3, 4, 5, 6, 7]
+-[ ] [3, 4, 5, 6]
+
+?[Que vaut l3 ?]
+-[ ] "Hello"
+-[ ] "H" "e" "l" "l" "o"
+-[ ] [ "Hello" ]
+-[X] [ "H", "e", "l", "l", "o" ]
+
+?[Que vaut l4 ?]
+-[ ] "Hello"
+-[ ] "HELLO"
+-[ ] [ "Hello" ]
+-[ ] [ "HELLO" ]
+-[ ] [ "H", "e", "l", "l", "o" ]
+-[X] [ "H", "E", "L", "L", "O" ]
 
 ---
 
-La construction par compréhension peut utiliser plusieurs variables:
+On peut utiliser plusieurs variables dans la construction par compréhension:
 
 ```python runnable
 l = [ i+j for i in range(5) for j in range(3) ]
@@ -36,17 +71,35 @@ for i in range(5):
 print(l)
 ```
 
-Exemple:
+**QCM**
+
 ```python
-l = [ i for j in range(2) for i in range(3, 5)]
+l5 = [ i for j in range(2) for i in range(3, 5)]
+l6 = [ i for i in range(3, 5) for j in range(2)]
+l7 = [ (i, j) for i in range(2) for j in range(2)]
 ```
-?[Que vaut l ?]
+?[Que vaut l5 ?]
+-[ ] [1, 2, 3, 4]
+-[ ] [1, 2, 1, 2]
+-[ ] [1, 1, 2, 2]
+-[ ] [3, 4]
+-[X] [3, 4, 3, 4]
+-[ ] [3, 3, 4, 4]
+
+?[Que vaut l6 ?]
 -[ ] [1, 2, 3, 4]
 -[ ] [1, 2, 1, 2]
 -[ ] [1, 1, 2, 2]
 -[ ] [3, 4]
 -[ ] [3, 4, 3, 4]
 -[X] [3, 3, 4, 4]
+
+?[Que vaut l7 ?]
+-[ ] [0, 1, 0, 1]
+-[ ] [0, 0, 0, 1, 1, 0, 1, 1]
+-[ ] [0, 0, 1, 0, 0, 1, 1, 1]
+-[X] [(0, 0), (0, 1), (1, 0), (1, 1)]
+-[ ] [(0, 0), (1, 0), (0, 1), (1, 1)]
 
 ---
 
@@ -62,4 +115,9 @@ for i in range(21):
     if i % 3 != 0:
         l.append(i)
 print(l)
+l = [ i if i % 3 != 0 for i in range(21) ]
+print(l)
 ```
+
+
+
