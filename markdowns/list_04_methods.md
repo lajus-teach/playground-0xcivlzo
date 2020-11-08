@@ -7,8 +7,8 @@ exhaustive de méthodes pour chaque objet qu'on rencontre en classe.
 Il est beaucoup plus important **de savoir lire et de comprendre la documentation officielle**.
 
 En utilisant soit:
- * [La documentation officielle]{https://docs.python.org/3.9/tutorial/datastructures.html#more-on-lists}
- * [La documentation W3Schools]{https://www.w3schools.com/python/python_ref_list.asp} (où l'on retrouve une interface "Try it yourself" permettant d'exécuter un bout de code dans le navigateur)
+ * [La documentation officielle](#https://docs.python.org/3.9/tutorial/datastructures.html#more-on-lists)
+ * [La documentation W3Schools](#https://www.w3schools.com/python/python_ref_list.asp) (où l'on retrouve une interface "Try it yourself" permettant d'exécuter un bout de code dans le navigateur)
 
 ---
 
