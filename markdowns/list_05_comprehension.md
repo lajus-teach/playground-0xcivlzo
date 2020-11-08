@@ -140,3 +140,9 @@ l9 = [ i for i in liste if i*i in liste]
 -[ ] [2, -2, 4, 2, 16]
 -[X] [2, -2, 4, 2, 0]
 
+# Exercice
+
+Yoda dispose de la liste des couples maître/padawan du temple (une liste de tuples de taille 2). Il souhaite que vous complétiez la fonction `inverse_couple` 
+renvoyant une nouvelle liste contenant les couples padawan/maître du temple.
+
+@[Much to learn, you still have]({"stubs": ["inverse.py"], "command": "python3 test_inverse.py"})
