@@ -20,7 +20,10 @@ pour avoir une description détaillée.
 Quand Yoda parle à quelqu'un il doit toujours utiliser plus de 2 mots. Compléter la fonction `word_count()` pour qu'elle renvoie le nombre de mots dans 
 la phrase passée en paramètre.
 
+@[Much to learn, you still have]({"stubs": ["wordcount.py"], "command": "python3 test_wordcount.py"})
+
 Parler comme Yoda tu veux. Pour cela compléter la fonction `yodaification()` tu devras. 
 De la phrase passée en argument, les deux premiers mots à la fin de la phrase tu déplaceras. Une nouvelle phrase ainsi créée tu renverras.
 
+@[Much to learn, you still have]({"stubs": ["yodaification.py"], "command": "python3 test_yodaification.py"})
 
