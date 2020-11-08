@@ -61,19 +61,19 @@ for a, b in l:
 
 #Exercice
 
-La fameuse course de module de Tatooine bat son plein et trois concurrents sont en courses. La position de chaque concurrent est stockée
+La fameuse course de module de Tatooine bat son plein et trois concurrents sont en course. La position de chaque concurrent est stockée
 dans un tuple de taille 3, mais la course est mouvementée:
 1. A cause d'une panne moteur le premier concurrent passe à la dernière position.
 2. Le second concurrent accélère et prend la tête de la course.
 3. Le dernier concurrent sauve l'honneur et dépasse le second module sur la ligne d'arrivée.
 
-Compléter la fonction `panne_moteur`, prenant en argument un tuple de taille 3, et renvoyant un nouveau tuple ou le premier module est 
+Compléter la fonction `panne_moteur`, prenant en argument un tuple de taille 3, et renvoyant un nouveau tuple où le premier module est 
 passé dernier, le second premier et le dernier second.
 
-Compléter la fonction `passe_en_tete`, prenant en argument un tuple de taille 3, et renvoyant un nouveau tuple ou le premier module est 
+Compléter la fonction `passe_en_tete`, prenant en argument un tuple de taille 3, et renvoyant un nouveau tuple où le premier module est 
 passé second et le second premier.
 
-Compléter la fonction `sauve_honneur`, prenant en argument un tuple de taille 3, et renvoyant un nouveau tuple ou le second module est 
+Compléter la fonction `sauve_honneur`, prenant en argument un tuple de taille 3, et renvoyant un nouveau tuple où le second module est 
 passé dernier et le dernier second.
 
 Bonus: Essayer d'écrire la fonction `sauve_honneur` sans manipuler les tuples, mais seulement en faisant appel aux fonctions `panne_moteur` et `passe_en_tete`.
