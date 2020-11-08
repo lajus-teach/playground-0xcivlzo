@@ -59,7 +59,7 @@ for a, b in l:
     print(a*b)
 ```
 
-#Exercice
+# Exercice
 
 La fameuse course de module de Tatooine bat son plein et trois concurrents sont en course. La position de chaque concurrent est stockée
 dans un tuple de taille 3, mais la course est mouvementée:
