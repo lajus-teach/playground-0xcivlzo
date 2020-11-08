@@ -11,7 +11,7 @@ x[3] = 4
 print(x)
 ```
 
-Mais on peut aussi modifier la structure de la liste:
+Mais on peut aussi modifier la **structure de la liste**:
 ```python runnable
 x = [1, 2, 3, 5]
 # Ajout de la valeur 6 à la fin de la liste
