@@ -30,16 +30,15 @@ l = [ i+j for i in range(5) for j in range(3) ]
 print(l)
 # Est équivalent à la construction itérative:
 l = []
-for j in range(3):
-    for i in range(5):
+for i in range(5):
+    for j in range(3):
         l.append(i+j)
 print(l)
 ```
 
 Exemple:
-```python runnable
+```python
 l = [ i for j in range(2) for i in range(3, 5)]
-print(l)
 ```
 ?[Que vaut l ?]
 -[ ] [1, 2, 3, 4]
