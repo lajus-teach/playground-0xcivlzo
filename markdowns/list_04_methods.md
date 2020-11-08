@@ -11,6 +11,7 @@ Il est beaucoup plus important **de savoir lire et de comprendre la documentatio
 À l'aide de (au choix):
  * [La documentation officielle](#https://docs.python.org/3.9/tutorial/datastructures.html#more-on-lists)
  * [La documentation W3Schools](#https://www.w3schools.com/python/python_ref_list.asp) (où l'on retrouve une interface "Try it yourself" permettant d'exécuter un bout de code dans le navigateur)
+
 Répondre aux questions suivantes (cocher toutes les affirmations vraies):
 
 ?[La méthode append()]
