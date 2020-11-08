@@ -25,5 +25,5 @@ la phrase passée en paramètre.
 Parler comme Yoda tu veux. Pour cela compléter la fonction `yodaification()` tu devras. 
 De la phrase passée en argument, les deux premiers mots à la fin de la phrase tu déplaceras. Une nouvelle phrase ainsi créée tu renverras.
 
-@[Much to learn, you still have]({"stubs": ["yodaification.py"], "command": "python3 test_yodaification.py"})
+@[Much to learn, you still have]({"stubs": ["yoda.py"], "command": "python3 test_yodaification.py"})
 
