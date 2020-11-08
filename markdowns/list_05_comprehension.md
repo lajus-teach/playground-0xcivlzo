@@ -115,9 +115,28 @@ for i in range(21):
     if i % 3 != 0:
         l.append(i)
 print(l)
-l = [ i if i % 3 != 0 for i in range(21) ]
-print(l)
 ```
 
+**QCM**
 
+```python
+liste = [ -5, 2, 3, -7, -2, 4, 2, 0, 16]
+l8 = [ i for i in liste if i > 0]
+l9 = [ i for i in liste if i*i in liste]
+```
+
+?[Que vaut l8 ?]
+-[ ] [-5, -7, -2]
+-[ ] [2, 3, 4, 2, 0, 16]
+-[X] [2, 3, 4, 2, 16]
+-[ ] [2, 3, 4, 16]
+
+?[Que vaut l9 ?]
+-[ ] [-5, 3, -7]
+-[ ] [2, 4, 2]
+-[ ] [2, 4, 2, 16]
+-[ ] [2, 4, 2, 0]
+-[ ] [2, -2, 4, 2]
+-[ ] [2, -2, 4, 2, 16]
+-[X] [2, -2, 4, 2, 0]
 
