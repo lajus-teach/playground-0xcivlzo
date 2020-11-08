@@ -2,6 +2,8 @@
 
 Complétez la fonction `moyenne` prenant en entrée une liste de valeurs numériques et renvoyant la moyenne de ces valeurs.
 
+@[Moyenne]({"stubs": ["moyenne.py"], "command": "python3 test_moyenne.py"})
+
 # Exercice 2
 
 Un carré magique est un carré composé de nombres dont les sommes des nombres de chaque ligne, 
@@ -69,3 +71,4 @@ Dans l'environnement Python suivant:
 1. Définissez la fonction `somme_colonne` qui prend un carré en paramètre, ainsi que le numéro d'une colonne, et qui renvoie la somme des nombres de cette colonne.
 1. Définissez la fonction `est_magique` qui prend un carré en paramètre et qui renvoie `True` si le carré est magique et `False` sinon.
 
+@[Carré magique]({"stubs": ["carre_magique.py"], "command": "python3 test_carre_magique.py"})
