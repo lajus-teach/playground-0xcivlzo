@@ -9,7 +9,7 @@ les sommes des nombres de chaque colonne et les sommes des nombres de chaque dia
 
 On représente un carré sous la forme d'une liste de listes de nombres.
 
-```python runnable
+```python
 carre3 = [
     [2, 7, 3],
     [9, 5, 1],
