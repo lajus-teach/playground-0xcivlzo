@@ -1,9 +1,9 @@
 # Les méthodes et la documentation officielle
 
-En Python, chaque objet dispose de multiples méthodes permettant de manipuler ces objets.
-On a vu les principales méthodes des chaînes de caractères en cours mais je ne compte pas refaire une liste 
-exhaustive de méthodes pour chaque objet qu'on rencontre en classe.
+En Python, chaque objet dispose de multiples méthodes permettant de manipuler cet objet.
+Par exemple, on a vu les principales méthodes permettant de manipuler des chaînes de caractères en cours. 
 
+Néanmoins je ne compte pas refaire une liste exhaustive des méthodes disponibles pour chaque objet qu'on rencontre en classe. 
 Il est beaucoup plus important **de savoir lire et de comprendre la documentation officielle**.
 
 En utilisant soit:
