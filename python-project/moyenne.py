@@ -1,4 +1,4 @@
-def moyennes(valeurs):
+def moyenne(valeurs):
     # A compléter
     
     
