@@ -24,7 +24,7 @@ def test_count_all_stars():
     except AssertionError as e:
         fail()
         send_msg("Oops! 🐞", e)
-        send_msg("Hint 💡", "Construit progressivement une nouvelle liste, couple par couple")
+        send_msg("Hint 💡", "Utilise le tuple matching pour itérer sur les couples.")
 
 if __name__ == "__main__":
     test_count_all_stars()
