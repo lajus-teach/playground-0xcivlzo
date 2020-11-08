@@ -68,12 +68,12 @@ même liste, la modification d'une liste n'entraîne pas la modification de l'au
 # Exercice
 
 Une année s'est écoulée et la nouvelle édition de la course de module de Tatooine est encore plus captivante. 
-Cette année, la position de chaque concurrent est stockée dans une liste. Cette année encore:
+Cette année, la position de chaque concurrent est stockée dans une liste. 
+
+Parmi les moments phares ce cette édition, il y a:
 1. Une panne moteur fait passer le premier concurrent à la dernière position.
 2. Le second concurrent accélère et prend la tête de la course.
 3. Le dernier concurrent sauve l'honneur et dépasse l'anvant dernier module de la course.
-
-Mais cette année:
 4. Un tir de blaster élimine le module en tête de la course.
 5. Dans un spectaculaire retournement de situation, un module qu'on pensait éliminé fait son grand retour à la dernière position.
 
