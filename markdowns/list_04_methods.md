@@ -6,13 +6,12 @@ Par exemple, on a vu les principales méthodes permettant de manipuler des chaî
 Néanmoins je ne compte pas refaire une liste exhaustive des méthodes disponibles pour chaque objet qu'on rencontre en classe. 
 Il est beaucoup plus important **de savoir lire et de comprendre la documentation officielle**.
 
-En utilisant soit:
- * [La documentation officielle](#https://docs.python.org/3.9/tutorial/datastructures.html#more-on-lists)
- * [La documentation W3Schools](#https://www.w3schools.com/python/python_ref_list.asp) (où l'on retrouve une interface "Try it yourself" permettant d'exécuter un bout de code dans le navigateur)
-
 ---
 
-À l'aide de la documentation, répondre aux questions suivantes (cocher toutes les affirmations vraies):
+À l'aide de (au choix):
+ * [La documentation officielle](#https://docs.python.org/3.9/tutorial/datastructures.html#more-on-lists)
+ * [La documentation W3Schools](#https://www.w3schools.com/python/python_ref_list.asp) (où l'on retrouve une interface "Try it yourself" permettant d'exécuter un bout de code dans le navigateur)
+Répondre aux questions suivantes (cocher toutes les affirmations vraies):
 
 ?[La méthode append()]
 -[X] Modifie la liste
