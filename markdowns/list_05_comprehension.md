@@ -39,6 +39,7 @@ print(l)
 Exemple:
 ```python runnable
 l = [ i for j in range(2) for i in range(3, 5)]
+print(l)
 ```
 ?[Que vaut l ?]
 -[ ] [1, 2, 3, 4]
