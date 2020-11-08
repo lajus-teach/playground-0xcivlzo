@@ -67,7 +67,24 @@ même liste, la modification d'une liste n'entraîne pas la modification de l'au
 
 # Exercice
 
-Yoda dispose d'une liste des couples maître/padawan du temple. Il souhaite que vous complétez la fonction `inverse_couples` 
-renvoyant la liste des couples padawan/maître du temple.
+Une année s'est écoulée et la nouvelle édition de la course de module de Tatooine est encore plus captivante. 
+Cette année, la position de chaque concurrent est stockée dans une liste. Cette année encore:
+1. Une panne moteur fait passer le premier concurrent à la dernière position.
+2. Le second concurrent accélère et prend la tête de la course.
+3. Le dernier concurrent sauve l'honneur et dépasse l'anvant dernier module de la course.
 
-@[Much to learn, you still have]({"stubs": ["inverse.py"], "command": "python3 test_inverse.py"})
+Mais cette année:
+4. Un tir de blaster élimine le module en tête de la course.
+5. Dans un spectaculaire retournement de situation, un module qu'on pensait éliminé fait son grand retour à la dernière position.
+
+Compléter la fonction `panne_moteur`, modifiant la liste passée en argument de manière à ce que le premier module passe dernier, le deuxième premier et ainsi de suite.
+
+Compléter la fonction `passe_en_tete`, modifiant la liste passée en argument de manière à ce que le premier module passe deuxième et le deuxième premier.
+
+Compléter la fonction `sauve_honneur`, modifiant la liste passée en argument de manière à ce que le dernier module passe avant-dernier et l'avant-dernier dernier.
+
+Compléter la fonction `tir_blaster`, enlevant le premier concurrent de la liste passée en argument.
+
+Compléter la fonction `retour_inatendu`, ajoutant un concurrent à la fin de la liste passée en argument.
+
+@[Looks like a few Tusken Raiders have camped out on the canyon dune turn!]({"stubs": ["permutation_list.py"], "command": "python3 test_permutation_list.py"})

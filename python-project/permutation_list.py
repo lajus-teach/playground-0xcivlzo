@@ -11,3 +11,11 @@ def sauve_honneur(classement):
     # A compléter
     
     
+def tir_blaster(classement):
+    # A compléter
+    
+
+def retour_inattendu(classement, concurrent):
+    # A compléter
+    
+    
