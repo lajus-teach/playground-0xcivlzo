@@ -15,9 +15,9 @@ def fail():
 def test_count_all_stars():
     try:
         dup1 = word_count("May the Force be with you, Luke!")
-        assert dup1 == 7, "Running word_count('May the Force be with you, Luke!')... Expected 7, got {}".format(dup1)
+        assert dup1 == 7, "Test 1: Running word_count('May the Force be with you, Luke!')... Expected 7, got {}".format(dup1)
         dup2 = word_count("C'est la chenille qui redémarre !")
-        assert dup2 == 6, "Running word_count('C'est la chenille qui redémarre !')... Expected 6, got {}".format(dup2)
+        assert dup2 == 6, "Test 2: Running word_count('C'est la chenille qui redémarre !')... Expected 6, got {}".format(dup2)
         success()
 
         send_msg("Bien joué !", "")

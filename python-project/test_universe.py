@@ -30,9 +30,9 @@ def fail():
 def test_count_all_stars():
     try:
         count1 = count_all_stars([2, 3])
-        assert count1 == 5, "Running count_all_stars([2, 3])... Expected 5, got {}".format(count1)
+        assert count1 == 5, "Test 1: Running count_all_stars([2, 3])... Expected 5, got {}".format(count1)
         count2 = count_all_stars([9, 4, 8, 7])
-        assert count2 == 28, "Running count_all_stars([9, 4, 8, 7])... Expected 28, got {}".format(count2)
+        assert count2 == 28, "Test 2: Running count_all_stars([9, 4, 8, 7])... Expected 28, got {}".format(count2)
         success()
 
         if sum_builtin_used:

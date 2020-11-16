@@ -15,11 +15,11 @@ def fail():
 def test_count_all_stars():
     try:
         dup1 = find_duplicate(["Order 66", "Order 66"])
-        assert dup1 == "Order 66", "Running find_duplicate(['Order 66', 'Order 66'])... Expected 'Order 66', got {}".format(dup1)
+        assert dup1 == "Order 66", "Test 1: Running find_duplicate(['Order 66', 'Order 66'])... Expected 'Order 66', got {}".format(dup1)
         dup2 = find_duplicate(["Only hope", "Order 66", "Order 66", "Obiwan Kenobi"])
-        assert dup2 == "Order 66", "Running find_duplicate(['Only hope', 'Order 66', 'Order 66', 'Obiwan Kenobi'])... Expected 'Order 66', got {}".format(dup2)
+        assert dup2 == "Order 66", "Test 2: Running find_duplicate(['Only hope', 'Order 66', 'Order 66', 'Obiwan Kenobi'])... Expected 'Order 66', got {}".format(dup2)
         dup3 = find_duplicate([2, 3, 1, 0, 1, 12])
-        assert dup3 == 1, "Running find_duplicate([2, 3, 1, 0, 1, 12])... Expected 1, got {}".format(dup3)
+        assert dup3 == 1, "Test 3: Running find_duplicate([2, 3, 1, 0, 1, 12])... Expected 1, got {}".format(dup3)
         success()
 
         send_msg("Bien joué !", "")
