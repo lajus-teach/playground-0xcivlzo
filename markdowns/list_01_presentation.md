@@ -167,7 +167,9 @@ l = [1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
 
 **Interface exercice**: lorsque vous appuyez sur RUN, un *autre* script Python sera exécuté. Ce script effectuera des tests unitaires sur les fonctions demandés.
 
-Lorsque qu'un test unitaire échoue ou lorsque votre programme retourne une erreur, l'interface indiquera FAIL. Pensez à bien lire le message d'erreur renvoyé pour comprendre où est votre erreur.
+Lorsque qu'un test unitaire échoue ou lorsque votre programme retourne une erreur, l'interface indiquera "Failure". Pensez à bien lire le message d'erreur renvoyé pour comprendre où est votre erreur.
+
+Le mot-clé `pass` en Python signifie "ne rien faire". Celui-ci sera utilisé pour indiquer un endroit à compléter.
 
 ---
 
