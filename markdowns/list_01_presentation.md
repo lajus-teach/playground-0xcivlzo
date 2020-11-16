@@ -157,7 +157,7 @@ l = [1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
 
 ?[Que vaut l[3][1:] ?]
 -[ ] ("Tuple, ["Liste"])
--[X] (["Liste])
+-[X] (["Liste"])
 -[ ] ["Liste"]
 -[ ] "Liste"
 -[ ] "iste"
@@ -165,14 +165,25 @@ l = [1.0, (1, 2, 3), [1, False], ("Tuple", ["Liste"]) ]
 
 # Exercices
 
-Yoda veut compter le nombre d'étoiles dans la galaxie. Il dispose d'une liste contenant le nombre d'étoiles dans chaque galaxie
-et vous demande de compléter la fonction `count_all_stars` calculant le nombre total d'étoiles à partir de cette liste passée en argument.
+**Interface exercice**: lorsque vous appuyez sur RUN, un *autre* script Python sera exécuté. Ce script effectuera des tests unitaires sur les fonctions demandés.
+
+Lorsque qu'un test unitaire échoue ou lorsque votre programme retourne une erreur, l'interface indiquera FAIL. Pensez à bien lire le message d'erreur renvoyé pour comprendre où est votre erreur.
+
+---
+
+Yoda veut compter le nombre d'étoiles dans l'univers. 
+
+Il vous demande de compléter la fonction `count_all_stars` prenant en argument une liste contenant le nombre d'étoiles dans chaque galaxie pour qu'elle renvoie le nombre total d'étoiles dans l'univers.
+
+Par exemple, supposons qu'il y a deux galaxies dans l'univers, la première possédant 2 étoiles et la seconde en possédant 3, alors `count_all_stars([2, 3])` devra renvoyer la valeur `5`.
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["universe.py"], "command": "python3 test_universe.py"})
 
-Yoda, recherche des indices pour identifier le seigneur Sith s'étant infiltré au coeur de la république. Pour cela, il recherche des messages transmis
-en double (par le seigneur Sith et son apprenti) dans les communications intergalactiques.
-Compléter la fonction `find_duplicate` identifiant les valeurs en doubles dans la liste des messages passée en argument.
+Yoda recherche des indices pour identifier le seigneur Sith s'étant infiltré au cœur de la république. Pour cela, il recherche des messages transmis en double (par le seigneur Sith et son apprenti) dans les communications intergalactiques. 
+
+Compléter la fonction `find_duplicate` prenant en argument la liste des messages intergalactiques et renvoyant le premier message de cette liste apparaissant au moins deux fois dans la liste.
+
+Par exemple, si `"Luke"`, `"Order 66"`, `"Order 66"`, `"Obiwan Kenobi"` est la liste des messages, `find_duplicate` devra renvoyer `"Order 66"`.
 
 @[Always two there are, no more, no less: a master and an apprentice.]({"stubs": ["duplicate.py"], "command": "python3 test_duplicate.py"})
 
