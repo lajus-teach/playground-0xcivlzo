@@ -26,7 +26,7 @@ print()
 print(l)
 ```
 
-Sur ces deux exemples, seul la moitié est supprimée. En effet, en supprimant le j-ième élément d'une liste, le j+1-ième élément devient le nouveau j-ième élément. L'élément suivant de la liste sera donc l'ancien j+2-ième élément et le j+1-ième élément ne sera pas supprimé. On ne traverse la boucle que 6 fois au total. 
+Sur ces deux exemples, seul la moitié de la liste est supprimée. En effet, en supprimant le j-ième élément d'une liste, le j+1-ième élément devient le nouveau j-ième élément. L'élément suivant de la liste sera donc l'ancien j+2-ième élément et le j+1-ième élément ne sera pas supprimé. On ne traverse la boucle que 6 fois au total. 
 
 Un autre exemple:
 
