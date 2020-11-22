@@ -1,6 +1,6 @@
 # Attention
 
-Si vous modifiez une liste sur laquelle vous êtes en train d'itérer, cela peut mener à des résultats inattendus.
+**Si vous modifiez une liste sur laquelle vous êtes en train d'itérer, cela peut mener à des résultats inattendus.**
 
 ## Suppresion de l'élément courant
 
