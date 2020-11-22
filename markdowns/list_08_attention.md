@@ -79,4 +79,4 @@ print()
 print(l)
 ```
 
-Par contre, en itérant sur chaque élément de la liste, la boucle s'exécute tant qu'on n'arrive pas jusqu'à la fin de cette liste. Vu qu'on ajoute un élément à cette liste à chaque tour de boucle, cette boucle ne termine jamais.
+En itérant sur chaque élément de la liste, la boucle s'exécute tant qu'on n'arrive pas jusqu'à la fin de cette liste. Vu qu'on ajoute un élément à cette liste à chaque tour de boucle, cette boucle ne termine jamais.
