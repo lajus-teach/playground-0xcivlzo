@@ -16,8 +16,8 @@ plan:
   statement: markdowns/list_06_strings.md
 - title: Exercices
   statement: markdowns/list_07_exercises.md
-- title: Comportement innattendu
-  statement: markdowns/list_08_attention.md  
+- title: Comportement inattendu
+  statement: markdowns/list_08_attention.md
 projects:
   python:
     root: /python-project
