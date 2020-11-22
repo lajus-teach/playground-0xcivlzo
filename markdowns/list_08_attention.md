@@ -35,7 +35,7 @@ print()
 print(l)
 ```
 
-Ici c'est la même chose sauf que `len(l)` est évalué avant le début de la boucle, donc la boucle sera exécuté 12 fois. 
+Ici c'est la même chose sauf que `range(len(l))` est évalué avant le début de la boucle, donc la boucle sera exécuté 12 fois. 
 Après la 6-ième itération, 6 éléments ont été supprimés de la boucle et la liste a dorénavant une taille de 6. Lors de la 7-ième itération, on essaye de supprimer le 7-ième élément de la liste, mais vu que celui-ci n'existe pas (la taille de la liste est dorénavant 6), une erreur est retournée.
 
 ## Ajout d'un élément
@@ -49,7 +49,7 @@ print()
 print(l)
 ```
 
-Vu que `len(l)` est évalué avant le début de la boucle, la boucle est exécutée 12 fois et on ajoute donc 12 éléments à notre liste.
+Vu que `range(len(l))` est évalué avant le début de la boucle, la boucle est exécutée 12 fois et on ajoute donc 12 éléments à notre liste.
 
 ```python runnable
 l = [ i for i in range(12) ]
