@@ -40,7 +40,7 @@ Après la 6-ième itération, 6 éléments ont été supprimés de la boucle et 
 
 ## Ajout d'un élément
 
-```
+```python runnable
 l = [ i for i in range(12) ]
 for i in range(len(l)):
     print('.', end='')
@@ -51,7 +51,7 @@ print(l)
 
 Vu que `len(l)` est évalué avant le début de la boucle, la boucle est exécutée 12 fois et on ajoute donc 12 éléments à notre liste.
 
-```
+```python runnable
 l = [ i for i in range(12) ]
 for i in l:
     print('.', end='')
