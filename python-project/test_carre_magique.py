@@ -66,7 +66,7 @@ def test_carre_magique():
         assert carre_magique.somme_colonne(col_ok, 0) == 3, "Test 11: Running somme_colonne(%s, 0), expected 3 got %s" % (str(col_ok), str(carre_magique.somme_colonne(col_ok, 0)))
         assert carre_magique.somme_colonne(col_ok, 1) == 3, "Test 12: Running somme_colonne(%s, 1), expected 3 got %s" % (str(col_ok), str(carre_magique.somme_colonne(col_ok, 1)))
         
-        assert carre_magique.somme_colonne(carre3, 0) == 12, "Test 13: Running somme_colonne(%s, 0), expected 12 got %s" % (str(carre3), str(carre_magique.somme_colonne(carre3, 0)))
+        assert carre_magique.somme_colonne(carre3, 0) == 15, "Test 13: Running somme_colonne(%s, 0), expected 12 got %s" % (str(carre3), str(carre_magique.somme_colonne(carre3, 0)))
         assert carre_magique.somme_colonne(carre4, 0) == 34, "Test 14: Running somme_colonne(%s, 0), expected 34 got %s" % (str(carre4), str(carre_magique.somme_colonne(carre4, 0)))
         assert carre_magique.somme_colonne(carre5, 0) == 65, "Test 15: Running somme_colonne(%s, 0), expected 64 got %s" % (str(carre4), str(carre_magique.somme_colonne(carre4, 0)))
         send_msg("Progression", "La fonction somme_colonne semble correcte.")
